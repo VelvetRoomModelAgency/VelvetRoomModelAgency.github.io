@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Room Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-image: url('https://images.unsplash.com/photo-1607190905070-bf1604b7558c?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #e91e63;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section.description {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .contact-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 160px);
+      text-align: center;
+      background-color: transparent;
+      padding: 20px;
+    }
+    .contact-section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .button {
+      display: inline-block;
+      padding: 20px 30px;
+      font-size: 1.5em;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+    .button:hover {
+      background-color: #d81b60;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: transparent;
+      font-size: 0.9em;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Velvet Room Agency</h1>
+    <p>Gestione riservata di contenuti digitali per donne eleganti e ambiziose</p>
+  </header>
+
+  <section class="description">
+    <p>Siamo un'agenzia riservata che supporta ragazze nella creazione e monetizzazione di contenuti digitali su piattaforme private. Nessuna esposizione obbligatoria, nessuna esperienza richiesta. Solo privacy, guadagni e supporto completo.</p>
+  </section>
+
+  <div class="contact-section">
+    <h2>Contattaci</h2>
+    <div class="buttons">
+      <a class="button" href="https://t.me/velvetroomagency" target="_blank">Telegram @velvetroomagency</a>
+      <a class="button" href="https://instagram.com/velvetroomagency" target="_blank">Instagram @velvetroomagency</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Velvet Room Agency. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
